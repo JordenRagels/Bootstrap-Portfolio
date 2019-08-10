@@ -1,7 +1,7 @@
 
 
 .hero{
-    background: lightgray;
+    background: lightseagreen;
     padding-top: 2rem;
     padding-bottom: 2rem;
   }
@@ -25,14 +25,14 @@
     padding: 0;
   }
 
-  .portfolioText {
-    margin: 50px;
+  .backgroundBody {
+    background-image: url("../assets/images/papyrus.jpg");
+    min-height: 90vh;
+    height:100%;
   }
-
-  .row {
-      margin: 10px;
+  .card-body {
+      background-color: lightseagreen;
   }
-
-  .container-fluid {
-      
-  }
+#contactName {
+    color: lightseagreen;
+}
