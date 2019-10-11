@@ -1,9 +1,15 @@
 
 
+.navbar{
+  background-color: white;
+}
+
+
 .hero{
-    background: lightseagreen;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
+    background-image: url("https://images.wallpaperscraft.com/image/mountains_trees_sunset_122188_3415x3415.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    color: white;
   }
   
   .hero .profile-pic {
@@ -25,14 +31,26 @@
     padding: 0;
   }
 
-  .backgroundBody {
-    background-image: url("../assets/images/papyrus.jpg");
-    min-height: 90vh;
-    height:100%;
+  body {
+    background-color: aliceblue
   }
-  .card-body {
-      background-color: lightseagreen;
+
+  .card {
+    background-image: url("http://www.allwhitebackground.com/images/5/Blue-Abstract-Background-High-Quality-Image.jpg");
+    color: whitesmoke;
+    margin: 20px;
+    opacity: 0.2;
   }
-#contactName {
-    color: lightseagreen;
-}
+
+  img.card-img-top {
+    background-size: 198vh 132vh;
+  }
+
+  #contact-card {
+    background-image: linear-gradient(darkgrey, steelblue);
+    color: white;
+  }
+
+  a:hover {
+    opacity: 1;
+  }
